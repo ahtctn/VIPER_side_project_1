@@ -13,6 +13,7 @@ class TaskListPresenter: TaskListPresenterProtocol {
     var router: TaskListRouterProtocol?
     
     func viewDidLoad() {
+        print("TaksList Presenter viewDidLoad function worked successfully.")
         interactor?.fetchTasks()
     }
     

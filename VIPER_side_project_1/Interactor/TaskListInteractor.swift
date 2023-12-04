@@ -11,7 +11,8 @@ class TaskListInteractor: TaskListInteractorProtocol {
     weak var presenter: TaskListPresenterProtocol?
     
     func fetchTasks() {
-        let tasks = [ 
+        print("TaskListInteractor - Fetching Tasks")
+        let tasks = [
             TaskModel(title: "Buy groceries", description: "Milk, egg, bread"),
             TaskModel(title: "Complete VIPER tutorial", description: "Write a blog post.")
         ]

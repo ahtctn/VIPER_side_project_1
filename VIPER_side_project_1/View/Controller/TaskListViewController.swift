@@ -14,6 +14,7 @@ class TaskListViewController: UIViewController,
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.viewDidLoad()
+        print("deneme")
     }
     
     func displayTasks(_ tasks: [TaskModel]) {
